@@ -23,10 +23,14 @@ github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312125134-6045
 github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312125134-60456dc665e1/go.mod h1:+dhR1VdVn/kN8i08sc6ZQMKTFkthbJQKZRg/iBFeihg=
 github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312130644-900fd70d04cb h1:CXjy3NSuKqOR4tA0GTpE9up9Hv65jKYksEe2JJmOYe0=
 github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312130644-900fd70d04cb/go.mod h1:hX6a39Tmxbm9l1x+tu/6tATlkcN0GjkmIZAvswS7pd4=
+github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312133642-75bcea74e27a h1:fxjjZuH7jq+nLQh8kFSxzZEDXwkd20O4w+lOUccAA5E=
+github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312133642-75bcea74e27a/go.mod h1:hX6a39Tmxbm9l1x+tu/6tATlkcN0GjkmIZAvswS7pd4=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312125122-d0d3d1a0fbfe h1:SGB6X0EokPRKMSTACZxmidb10N079XpUKNvPl4qybHo=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312125122-d0d3d1a0fbfe/go.mod h1:HDhx5SepI6TB1laxzu0xEhlrX9qESSIZ89vuHGxs7Ao=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312130650-885aebe7dc1b h1:XFa4FMGqKygqni610H+3rSqVwp7sf41KDNp984VqIfE=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312130650-885aebe7dc1b/go.mod h1:fc2jQ2HC1/AYNLYOUBYaHR77ZR2Z7HYn0yMe53KBiMQ=
+github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312133634-1cd5c42dad07 h1:zjaOOpMQGmrftMlYJpu7UdcJSNEoUVvlYkdyhHSydOc=
+github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312133634-1cd5c42dad07/go.mod h1:fc2jQ2HC1/AYNLYOUBYaHR77ZR2Z7HYn0yMe53KBiMQ=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

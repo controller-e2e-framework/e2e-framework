@@ -6,4 +6,4 @@ spec:
   ref:
     kind: Responder
     apiVersion: delivery.controller-e2e-framework/v1alpha1
-    name: test-responder
+    name: responder-sample

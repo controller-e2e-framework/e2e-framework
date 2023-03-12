@@ -50,7 +50,13 @@ func TestControllerApply(t *testing.T) {
 					return false
 				}
 
-				return obj.Status.Controlled
+				labels := obj.GetLabels()
+
+				if v, ok := labels["controller-e2e-framework.controlled"]; ok && v == "true" {
+					return true
+				}
+
+				return false
 			}), wait.WithTimeout(time.Minute*2))
 
 			if err != nil {
