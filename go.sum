@@ -27,6 +27,8 @@ github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312133642-75bc
 github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312133642-75bcea74e27a/go.mod h1:hX6a39Tmxbm9l1x+tu/6tATlkcN0GjkmIZAvswS7pd4=
 github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312141546-932a70449561 h1:S6TuRIGWV6y086C5dCB+Qsmc45GixCQr+2pQlIspkvc=
 github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312141546-932a70449561/go.mod h1:hX6a39Tmxbm9l1x+tu/6tATlkcN0GjkmIZAvswS7pd4=
+github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312155803-91aa07a3b57f h1:axPlvrEGuxiuqkAmcGngnqdMGeZX6CEEizaXl4Ffd28=
+github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312155803-91aa07a3b57f/go.mod h1:hX6a39Tmxbm9l1x+tu/6tATlkcN0GjkmIZAvswS7pd4=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312125122-d0d3d1a0fbfe h1:SGB6X0EokPRKMSTACZxmidb10N079XpUKNvPl4qybHo=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312125122-d0d3d1a0fbfe/go.mod h1:HDhx5SepI6TB1laxzu0xEhlrX9qESSIZ89vuHGxs7Ao=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312130650-885aebe7dc1b h1:XFa4FMGqKygqni610H+3rSqVwp7sf41KDNp984VqIfE=
@@ -35,6 +37,8 @@ github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312133634-1cd5
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312133634-1cd5c42dad07/go.mod h1:fc2jQ2HC1/AYNLYOUBYaHR77ZR2Z7HYn0yMe53KBiMQ=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312141734-4ee32d142719 h1:ia6ECVmHAa2J+0otacElgEyMd73Fno5F/cEKrg035UU=
 github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312141734-4ee32d142719/go.mod h1:fc2jQ2HC1/AYNLYOUBYaHR77ZR2Z7HYn0yMe53KBiMQ=
+github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312155751-3141c8285193 h1:zIv4nltUw54+4gSK4SkddL364hLR80ImK3xOgKRTIDs=
+github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312155751-3141c8285193/go.mod h1:fc2jQ2HC1/AYNLYOUBYaHR77ZR2Z7HYn0yMe53KBiMQ=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

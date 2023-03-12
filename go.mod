@@ -3,8 +3,8 @@ module github.com/controller-e2e-framework/e2e-framework
 go 1.20
 
 require (
-	github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312141546-932a70449561
-	github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312141734-4ee32d142719
+	github.com/controller-e2e-framework/test-1-controller v0.0.0-20230312155803-91aa07a3b57f
+	github.com/controller-e2e-framework/test-2-controller v0.0.0-20230312155751-3141c8285193
 	sigs.k8s.io/e2e-framework v0.1.0
 )
 
