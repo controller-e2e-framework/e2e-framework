@@ -1,0 +1,9 @@
+apiVersion: delivery.controller-e2e-framework/v1alpha1
+kind: Controller
+metadata:
+  name: controller-sample
+spec:
+  ref:
+    kind: Responder
+    apiVersion: delivery.controller-e2e-framework/v1alpha1
+    name: test-responder

@@ -1,0 +1,5 @@
+apiVersion: delivery.controller-e2e-framework/v1alpha1
+kind: Responder
+metadata:
+  name: responder-sample
+spec: {}
