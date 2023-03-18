@@ -72,7 +72,7 @@ Details about writing tests can be read under [Implementation](#implementations)
 Any environment MUST have `tilt` and `kind` installed. To install them, run `make prepare`.
 
 Another requirement is the controllers that are used in the test MUST be checked out next to
-this project. The testing frameork will gradually do `cd ..` to find any controllers it needs.
+this project. The testing framework will gradually do `cd ..` to find any controllers it needs.
 
 ### Simply `go test`
 
