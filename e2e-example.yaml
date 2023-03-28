@@ -1,0 +1,41 @@
+name: e2e
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: 0 0 * * 1 # every Monday at 00:00
+
+permissions:
+  contents: read # for actions/checkout to fetch code
+
+jobs:
+  kind-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+        with:
+          path: e2e
+      - name: Checkout test-1-controller
+        uses: actions/checkout@v3
+        with:
+          repository: 'controller-e2e-framework/test-1-controller'
+          path: test-1-controller
+      - name: Checkout test-2-controller
+        uses: actions/checkout@v3
+        with:
+          repository: 'controller-e2e-framework/test-2-controller'
+          path: test-2-controller
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version-file: '${{ github.workspace }}/e2e/go.mod'
+      - name: Restore Go cache
+        uses: actions/cache@v3
+        with:
+          path: /home/runner/work/_temp/_github_home/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+      - name: Run tests
+        run: cd e2e && make test

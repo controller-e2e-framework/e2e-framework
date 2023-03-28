@@ -162,3 +162,7 @@ Then, this feature can be executed together with others.
 ```go
 	testEnv.TestInParallel(t, createDeployment, checkDeployment, deleteDeployment)
 ```
+
+### Running in CI
+
+For an example of how to run the tests as a GitHub action looks at [e2e-example.yaml](e2e-example.yaml).
